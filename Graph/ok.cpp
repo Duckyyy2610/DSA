@@ -8,4 +8,5 @@ int main ()
     cout<<"push";
     cout<<"abc xyz";
     cout<<"new psuh";
+    cout<<"okokok";
 }
