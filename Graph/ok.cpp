@@ -4,4 +4,5 @@ int main ()
 {
     cout<<"ok";
     cout<<"hello world";
+    cout<<"push";
 }
