@@ -1,4 +1,6 @@
-// Cho mảng A[] gồm N phần tử là số nguyên dương, xét tất cả các tập con của A[] và tính tổng các phần tử trong tập này (bao gồm cả tập rỗng), sau đó liệt kê các tổng khác nhau có thể tạo thành theo thứ tự tăng dần.
+// Cho mảng A[] gồm N phần tử là số nguyên dương, 
+// xét tất cả các tập con của A[] và tính tổng các phần tử trong tập này (bao gồm cả tập rỗng), 
+// sau đó liệt kê các tổng khác nhau có thể tạo thành theo thứ tự tăng dần.
 
 // Input Format
 

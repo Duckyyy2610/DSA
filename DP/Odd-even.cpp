@@ -1,4 +1,6 @@
-// Bạn được cung cấp một mảng A gồm N giá trị nguyên dương. Một mảng con của mảng này được gọi là mảng con Chẵn lẻ nếu số lượng các số nguyên lẻ trong mảng con này bằng số lượng các số nguyên chẵn trong mảng con này.
+// Bạn được cung cấp một mảng A gồm N giá trị nguyên dương. 
+// Một mảng con của mảng này được gọi là mảng con Chẵn lẻ nếu số lượng các số nguyên lẻ trong mảng con 
+// này bằng số lượng các số nguyên chẵn trong mảng con này.
 
 // Tìm số mảng con Lẻ-Chẵn cho mảng đã cho.
 
