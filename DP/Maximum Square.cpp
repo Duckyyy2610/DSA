@@ -1,4 +1,5 @@
-// Bạn được cung cấp một ma trận nhị phân có N dòng và M cột chỉ bao gồm các số 0 và 1, hãy tìm hình vuông lớn nhất trong ma trận mà chỉ chứa toàn số 1.
+// Bạn được cung cấp một ma trận nhị phân có N dòng và M cột chỉ bao gồm các số 0 và 1, 
+// hãy tìm hình vuông lớn nhất trong ma trận mà chỉ chứa toàn số 1.
 
 // Input Format
 

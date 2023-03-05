@@ -1,4 +1,8 @@
-// John có một đàn bò. Một ngày đẹp trời,anh ta quyết định mua xe tải với khả năng chở được C kg (1000 ≤ C ≤ 25000) để đưa những con bò đi xem phim. Cho số con bò là N (20 ≤ N ≤ 100) và khối lượng w[i] của từng con (đều nhỏ hơn C), hãy cho biết khối lượng bò lớn nhất mà John có thể đưa đi xem phim là bao nhiêu.
+// John có một đàn bò. Một ngày đẹp trời,
+// anh ta quyết định mua xe tải với khả năng chở được
+// C kg (1000 ≤ C ≤ 25000) để đưa những con bò đi xem phim. 
+// Cho số con bò là N (20 ≤ N ≤ 100) và khối lượng w[i] của từng con 
+// (đều nhỏ hơn C), hãy cho biết khối lượng bò lớn nhất mà John có thể đưa đi xem phim là bao nhiêu.
 
 // Input Format
 

@@ -1,4 +1,5 @@
-// Cho mảng A[] gồm N phần tử, nhiệm vụ của bạn là tính tổng lớn nhất của dãy con trong mảng với một điều kiện đó là trong dãy con này không được có 2 phần tử nằm liền kề nhau.
+// Cho mảng A[] gồm N phần tử, nhiệm vụ của bạn là tính tổng lớn nhất của dãy con 
+// trong mảng với một điều kiện đó là trong dãy con này không được có 2 phần tử nằm liền kề nhau.
 
 // Input Format
 

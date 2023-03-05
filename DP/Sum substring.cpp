@@ -1,4 +1,6 @@
-// Cho một số tự nhiên N được biểu diễn như một xâu kí tự, bạn hãy tính tổng của tất cả các số tạo bởi các xâu con liên tiếp của N, ví dụ N = 235 thì ta có tổng = 2 + 3 + 5 + 23 + 35 + 235.
+// Cho một số tự nhiên N được biểu diễn như một xâu kí tự, 
+// bạn hãy tính tổng của tất cả các số tạo bởi các xâu con liên tiếp của N, 
+// ví dụ N = 235 thì ta có tổng = 2 + 3 + 5 + 23 + 35 + 235.
 
 // Input Format
 

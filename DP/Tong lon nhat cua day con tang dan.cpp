@@ -1,4 +1,8 @@
-// Cho dãy số A[] gồm N số. Nhiệm vụ của bạn là tìm tổng lớn nhất của dãy con được sắp theo thứ tự tăng dần của dãy A[]. Ví dụ với dãy A[] = {1, 101, 2, 3, 100, 4, 5} ta có kết quả là 106 = 1 + 2 + 3 + 100. Với dãy A[] = {10, 7, 5} ta có kết quả là 10. Với dãy A[] = {1, 2, 3, 5} ta có kết quả là 11.
+// Cho dãy số A[] gồm N số. 
+// Nhiệm vụ của bạn là tìm tổng lớn nhất của dãy 
+// con được sắp theo thứ tự tăng dần của dãy A[]. 
+// Ví dụ với dãy A[] = {1, 101, 2, 3, 100, 4, 5} ta có kết quả 
+// là 106 = 1 + 2 + 3 + 100. Với dãy A[] = {10, 7, 5} ta có kết quả là 10. Với dãy A[] = {1, 2, 3, 5} ta có kết quả là 11.
 
 // Input Format
 

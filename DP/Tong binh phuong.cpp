@@ -1,4 +1,6 @@
-// Mọi số nguyên dương N đều có thể phân tích thành tổng các bình phương của các số nhỏ hơn N. Ví dụ số 100 = 10^2 hoặc 100 = 5^2 + 5^2 + 5^2 + 5^2. Cho số nguyên dương N. Nhiệm vụ của bạn là tìm số lượng ít nhất các số nhỏ hơn N mà có tổng bình phương bằng N.
+// Mọi số nguyên dương N đều có thể phân tích thành tổng các 
+// bình phương của các số nhỏ hơn N. Ví dụ số 100 = 10^2 hoặc 100 = 5^2 + 5^2 + 5^2 + 5^2. 
+// Cho số nguyên dương N. Nhiệm vụ của bạn là tìm số lượng ít nhất các số nhỏ hơn N mà có tổng bình phương bằng N.
 
 // Input Format
 
@@ -38,6 +40,7 @@ int main() {
             dp[i]=min(dp[i], dp[i-j*j]+1);
         }
     }
+    // for(int i=1;i<=n;i++) cout<<dp[i]<<" ";
     cout<<dp[n];
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
     return 0;

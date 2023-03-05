@@ -1,4 +1,6 @@
-// Một chiếc cầu thang có N bậc. Mỗi bước, bạn được phép bước lên trên tối đa K bước. Hỏi có tất cả bao nhiêu cách bước để đi hết cầu thang? (Tổng số bước đúng bằng N).
+// Một chiếc cầu thang có N bậc. 
+// Mỗi bước, bạn được phép bước lên trên tối đa K bước. 
+
 
 // Input Format
 
