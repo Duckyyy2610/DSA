@@ -46,6 +46,7 @@ int main() {
         else even++;
         
         ans+=mp[odd-even]++;
+        if(odd-even==0) cout<<ans<<' '<<mp[odd-even]<<endl;
     }
     cout<<ans;
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */   

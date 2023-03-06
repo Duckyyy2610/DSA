@@ -1,25 +1,28 @@
-// Ngân hàng XYZ hiện có N tờ tiền có mệnh giá khác nhau được lưu vào mảng C[], 
-// bạn hãy tìm cách đổi số tiền là S sao cho số tờ tiền cần dùng là ít nhất. Bạn được sử dụng một mệnh giá không giới hạn số lần.
+// Hãy xem xét một hệ thống tiền tệ của ngân hàng XYZ bao gồm n đồng xu.
+//  Mỗi đồng xu có một giá trị nguyên dương. Nhiệm vụ của bạn là tính số cách riêng biệt mà
+// bạn có thể tạo ra số tiền x bằng cách sử dụng số xu có sẵn. Ví dụ: nếu số xu là {2,3,5} và 
+// tổng mong muốn là 9, có 8 cách: 2 + 2 + 5; 2 + 5 + 2; 5 + 2 + 2; 3 + 3 + 3; 2 + 2 + 2 + 3; 2 + 2 + 3 + 2; 
+// 2 + 3 + 2 + 2; 3 + 2 + 2 + 2;
 
 // Input Format
 
-// Dòng đầu tiên chứa 2 số N và S; Dòng thứ 2 chưa N số là mệnh giá các tờ tiền;
+// Dòng nhập đầu tiên có hai số nguyên n và x: số xu và số tiền mong muốn. Dòng thứ hai có n số nguyên phân biệt c1, c2,…, cn: giá trị của mỗi đồng xu.
 
 // Constraints
 
-// 1<=N<=100; 1<=S<=10^6; 1<=C[i]<=10^6;
+// 1≤n≤100; 1≤x≤10^6; 1≤ci≤10^6;
 
 // Output Format
 
-// In ra số tờ tiền nhỏ nhất cần đổi. Nếu không thể đổi được số tiền đúng bằng S thì in ra -1.
+// In ra kết quả lấy dư với 10^9 + 7
 
 // Sample Input 0
 
-// 3 10
-// 4 5 8
+// 3 9
+// 2 3 5
 // Sample Output 0
 
-// 2
+// 8
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -49,6 +52,5 @@ int main() {
         }
     }
     cout<<dp[s];
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
     return 0;
 }

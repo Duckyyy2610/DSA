@@ -1,4 +1,6 @@
-// Nhiệm vụ của bạn là đếm số cách các số 1,2,…, n có thể chia thành hai tập có tổng bằng nhau. Các phần tử trong tập không xét đến thứ tự Ví dụ, nếu n = 7, có bốn nghiệm: {1,3,4,6} và {2,5,7}. {1,2,5,6} và {3,4,7}. {1,2,4,7} và {3,5,6}. {1,6,7} và {2,3,4,5}.
+// Nhiệm vụ của bạn là đếm số cách các số 1,2,…, n có thể chia thành hai tập có tổng bằng nhau. 
+// Các phần tử trong tập không xét đến thứ tự Ví dụ, nếu n = 7, có bốn nghiệm: 
+// {1,3,4,6} và {2,5,7}. {1,2,5,6} và {3,4,7}. {1,2,4,7} và {3,5,6}. {1,6,7} và {2,3,4,5}.
 
 // Input Format
 
@@ -64,6 +66,7 @@ int main() {
                 dp[j]%=mod;
             }
         }
+        // cout<<dp[sum]<<endl;
         cout<<(dp[sum]*powMod(2, mod-2))%mod;
     }
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */   

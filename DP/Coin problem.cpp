@@ -45,6 +45,7 @@ int main() {
                 dp[i]=min(dp[i],dp[i-a[j]]+1);
                 cout<<dp[i]<<endl;
             }
+            
         }
     }
     if(dp[s]<1000000000)cout<<dp[s];
