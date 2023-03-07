@@ -1,4 +1,6 @@
-// Bạn được cung cấp một số nguyên n. Trên mỗi bước, bạn có thể trừ một trong các chữ số khỏi số. Cần thực hiện bao nhiêu bước để số đó bằng 0?
+// Bạn được cung cấp một số nguyên n. Trên mỗi bước, 
+// bạn có thể trừ một trong các chữ số khỏi số. 
+// Cần thực hiện bao nhiêu bước để số đó bằng 0?
 
 // Input Format
 
